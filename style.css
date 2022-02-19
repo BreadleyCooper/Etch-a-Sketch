@@ -1,0 +1,27 @@
+
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    justify-content: center ;
+}
+.grid {
+    flex-direction: row;
+    border: 1px solid black;
+    flex-grow: 1;
+    min-width: 31px;
+    max-width: 31px;
+    box-sizing: border-box;
+}
