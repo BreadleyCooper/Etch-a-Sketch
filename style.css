@@ -19,9 +19,14 @@
 }
 .grid {
     flex-direction: row;
-    border: 1px solid black;
+    border: 1px solid #00000036;
     flex-grow: 1;
     min-width: 31px;
     max-width: 31px;
     box-sizing: border-box;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
